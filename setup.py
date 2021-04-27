@@ -14,6 +14,7 @@
 # limitations under the License.
 
 # coding=utf-8
+# coding=utf-8
 """Install trax."""
 
 from setuptools import find_packages
@@ -21,7 +22,7 @@ from setuptools import setup
 
 setup(
     name='trax',
-    version='1.3.7',
+    version='1.3.8',
     description='Trax',
     long_description=(
         'Trax helps you understand deep learning. We start with basic maths and'
@@ -41,6 +42,7 @@ setup(
         'gym',
         'jax',
         'jaxlib',
+        'matplotlib',
         'numpy',
         'psutil',
         'scipy',
@@ -55,7 +57,6 @@ setup(
         'tests': [
             'attrs',
             'jupyter',
-            'matplotlib',
             'mock',
             'parameterized',
             'pylint',
